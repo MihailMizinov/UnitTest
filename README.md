@@ -10,7 +10,7 @@ class Calculator {
 class User {
 - Name: string
 + User(name: string)
-+ UseCalculator(calc: Calculator, num1: double, num2: double): void
++ UseCalculator(calc: Calculator, num1: int, num2: int): void
 }
 
 class History {
