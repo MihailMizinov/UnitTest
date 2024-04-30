@@ -1,10 +1,10 @@
 ```mermaid
 classDiagram
 class Calculator {
-+ Add(a: double, b: double): double
-+ Subtract(a: double, b: double): double
-+ Multiply(a: double, b: double): double
-+ Degree(a: double, b: double): double
++ Summ(a: int, b: int): int
++ Difference(a: int, b: int): int
++ Multiplication(a: int, b: int): int
++ Degree(a: int, b: int): int
 }
 
 class User {
